@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class TextMemory : MonoBehaviour
 {
-    public TMP_InputField TMP_InputField;
     private TMP_Text m_Text;
 
     private void Start()
@@ -11,8 +10,8 @@ public class TextMemory : MonoBehaviour
         m_Text = GetComponent<TMP_Text>();
     }
 
-    public void AddText()
+    public void AddText(string text)
     {
-        m_Text.text += TMP_InputField.text + "\n";
+        m_Text.text += text + "\n";
     }
 }
