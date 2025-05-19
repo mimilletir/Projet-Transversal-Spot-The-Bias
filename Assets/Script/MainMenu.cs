@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject creditsOverlay;
+    public GameObject mainMenuOverlay;
 
     public void StartGame()
     {
@@ -13,11 +14,13 @@ public class MainMenu : MonoBehaviour
     public void ShowCredits()
     {
         creditsOverlay.SetActive(true);
+        mainMenuOverlay.SetActive(false);
     }
 
     public void HideCredits()
     {
         creditsOverlay.SetActive(false);
+        mainMenuOverlay.SetActive(true);
     }
 
     public void QuitGame()
