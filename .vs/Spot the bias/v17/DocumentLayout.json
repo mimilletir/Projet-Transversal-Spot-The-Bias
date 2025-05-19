@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|c:\\users\\milan\\documents\\github\\projet-transversal-spot-the-bias\\spot the bias\\assets\\script\\clickableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\clickableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\randomspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\randomspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\textmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\textmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClickableObject.cs",
-              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\ClickableObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\ClickableObject.cs",
-              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\ClickableObject.cs",
-              "RelativeToolTip": "Assets\\Script\\ClickableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TextMemory.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\TextMemory.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TextMemory.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\TextMemory.cs",
+              "RelativeToolTip": "Assets\\Script\\TextMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T18:34:40.136Z",
+              "WhenOpened": "2025-05-15T08:46:34.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandomSpawn.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\RandomSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RandomSpawn.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\RandomSpawn.cs",
+              "RelativeToolTip": "Assets\\Script\\RandomSpawn.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:36:59.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwEMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:58:36.962Z",
               "EditorCaption": ""
             }
           ]

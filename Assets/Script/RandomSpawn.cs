@@ -10,6 +10,8 @@ public class RandomSpawn : MonoBehaviour
     public float minDistance = 1f;
     public List<string> names = new List<string>();
 
+    [SerializeField] private RandomCharacterGenerator rndChaGen;
+
     private int _currentPeople = 0;
     private List<Vector2> spawnedPositions = new List<Vector2>();
 
@@ -37,6 +39,7 @@ public class RandomSpawn : MonoBehaviour
 
         spawnedPositions.Add(spawnPosition);
         GameObject newPeople = Instantiate(peoplePrefab, spawnPosition, Quaternion.identity);
+        rndChaGen.GenerateRandomCharacter(newPeople.transform);
 
         string name = GetRandomName();
         newPeople.GetComponent<ClickableObject>().objectName = name;

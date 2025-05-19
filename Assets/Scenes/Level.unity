@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   peoplePrefab: {fileID: 8080041400347581146, guid: 3c4d19e9509c7f049b8c3740491ea3ff, type: 3}
-  maxPeople: 800
+  maxPeople: 300
   spawnInterval: 0.01
   spawnArea: {x: 32, y: 12}
   minDistance: 0.4
@@ -157,6 +157,7 @@ MonoBehaviour:
   - truc
   - chose
   - machin
+  rndChaGen: {fileID: 928571166}
 --- !u!4 &52102054
 Transform:
   m_ObjectHideFlags: 0
@@ -744,6 +745,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &928571164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928571165}
+  - component: {fileID: 928571166}
+  m_Layer: 0
+  m_Name: RandomCharacterGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928571165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928571164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8371953, y: -0.4137992, z: -0.19038615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928571166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928571164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c74cb85fb731c4b90d153a685902e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heads:
+  - {fileID: 5294342545596624674, guid: 151fef294f8982e4290e57febc8ff295, type: 3}
+  - {fileID: 3884556660111867385, guid: 1198ad93bacfb9c43aabb074c8d0387c, type: 3}
+  bodies:
+  - {fileID: 8499269472285282142, guid: c91693410220384448602cec9883aea1, type: 3}
+  - {fileID: 4832885691669947416, guid: 6eff550065612ae46848f61ba057a05d, type: 3}
+  hairs:
+  - {fileID: 8187621581780038537, guid: c380e45240089ec4ea4e919094aec590, type: 3}
+  - {fileID: 1789855181413307876, guid: b1da9e231f0e8c345bbd65d9260d3ab3, type: 3}
+  legs:
+  - {fileID: 1865284881190581166, guid: 6ed4114d910988b4790eea808ac39627, type: 3}
+  - {fileID: 9019018960443330573, guid: 44203afae2908b34fba3c517e7f02434, type: 3}
 --- !u!1 &1062057360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,6 +1077,7 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1062057362}
   - {fileID: 52102054}
+  - {fileID: 928571165}
   - {fileID: 130605617}
   - {fileID: 251702708}
   - {fileID: 1267530627}
