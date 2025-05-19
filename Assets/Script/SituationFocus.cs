@@ -1,13 +1,16 @@
 using System.Collections.Generic;
 using System.Globalization;
+using TMPro;
 using UnityEngine;
 
 public class SituationFocus : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private CameraController cameraController;
     [SerializeField] private List<GameObject> situations;
+    [SerializeField] private TextMeshProUGUI textSituation;
+    [SerializeField] private TextMeshProUGUI textSolution;
 
-    [SerializeField] private CameraFocus cameraFocus;
 
     private List<bool> founds = new List<bool>();
     private int number = 0;
@@ -27,7 +30,11 @@ public class SituationFocus : MonoBehaviour
 
     public void FocusScene()
     {
-        cameraFocus.Focus(situations[number].transform);
+        cameraController.StartFocus(true, situations[number].transform);
+        textSituation.text = gameManager.popups[number].popupText;
+        textSolution.text = gameManager.popups[number].popupText;
         number += 1;
+        if (number >= gameManager.popups.Count)
+            number = 0;
     }
 }
