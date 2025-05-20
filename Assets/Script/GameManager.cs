@@ -23,6 +23,10 @@ public class GameManager : MonoBehaviour
     [Header("Popups configurables")]
     public List<PopupData> popups = new List<PopupData>();
 
+    [Header("Tuto")]
+    public GameObject tuto;
+    public Timer timer;
+
     private Dictionary<string, string> popupDictionary;
 
     void Awake()
@@ -47,6 +51,12 @@ public class GameManager : MonoBehaviour
         {
             if (!popupDictionary.ContainsKey(data.objectName))
                 popupDictionary.Add(data.objectName, data.popupText);
+        }
+
+        if (tuto != null)
+        {
+            tuto.SetActive(true);
+            timer.timerIsRunning = false;
         }
     }
 

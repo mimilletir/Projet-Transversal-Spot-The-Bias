@@ -14,8 +14,6 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
-        timerIsRunning = true;
-
         if (skipbutton != null)
         {
             skipbutton.onClick.AddListener(Stopbutton);
@@ -25,6 +23,11 @@ public class Timer : MonoBehaviour
         {
             finalscreen.SetActive(false);
         }
+    }
+
+    public void StartGame()
+    {
+        timerIsRunning = true;
     }
 
     void Update()
@@ -79,7 +82,7 @@ public class Timer : MonoBehaviour
     IEnumerator WaitBeforeSceneChange(float delay)
     {
         yield return new WaitForSecondsRealtime(delay);
-        Time.timeScale = 1f; 
-        SceneManager.LoadScene("finalscreen");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("EndScene");
     }
 }

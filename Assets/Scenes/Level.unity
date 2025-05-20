@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   peoplePrefab: {fileID: 8080041400347581146, guid: 3c4d19e9509c7f049b8c3740491ea3ff, type: 3}
   maxPeople: 200
-  spawnInterval: 0.01
+  spawnInterval: 0.001
   spawnArea: {x: 30, y: 10}
   minDistance: 0.6
   rndChaGen: {fileID: 928571166}
@@ -882,6 +882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectName: DanceImposee
+  tuto: {fileID: 719292890}
+  popup: {fileID: 1263871041}
 --- !u!61 &714337245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -928,6 +930,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.12, y: 2.59}
   m_EdgeRadius: 0
+--- !u!1 &719292890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6057316303821542642, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
+  m_PrefabInstance: {fileID: 1263871035}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &787968673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1187,7 @@ Transform:
   m_GameObject: {fileID: 1251359330}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.71, y: -3.31, z: -1.4427285}
+  m_LocalPosition: {x: -2.55, y: 0.53, z: -1.4427285}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1254,6 +1261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectName: ObjetMignon
+  tuto: {fileID: 719292890}
+  popup: {fileID: 1263871041}
 --- !u!61 &1251359334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1308,42 +1317,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 376502131080092761, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 298.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 376502131080092761, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 102.1849
-      objectReference: {fileID: 0}
-    - target: {fileID: 376502131080092761, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 782.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 376502131080092761, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 462.4176
-      objectReference: {fileID: 0}
-    - target: {fileID: 1437332998305395507, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 782
-      objectReference: {fileID: 0}
-    - target: {fileID: 1437332998305395507, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 369
-      objectReference: {fileID: 0}
-    - target: {fileID: 1640098020222967008, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_text
-      value: 3:00
-      objectReference: {fileID: 0}
-    - target: {fileID: 1640098020222967008, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4822471491428827265, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6037520589792684983, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1428,10 +1401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_popup
       objectReference: {fileID: 0}
-    - target: {fileID: 8179521735257876301, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 7508201742836384849, guid: 81cd11dc366f3d941838e37b0bd6f735, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1557957866}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1538,6 +1511,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectName: HommeAssis
+  tuto: {fileID: 719292890}
+  popup: {fileID: 1263871041}
 --- !u!61 &1430130809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1716,9 +1691,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8719468217850351151, guid: 3ee88c6ded28fc2418cb304a7b07691d, type: 3}
+      propertyPath: tuto
+      value: 
+      objectReference: {fileID: 719292890}
+    - target: {fileID: 8719468217850351151, guid: 3ee88c6ded28fc2418cb304a7b07691d, type: 3}
       propertyPath: popup
       value: 
       objectReference: {fileID: 1263871041}
+    - target: {fileID: 8719468217850351151, guid: 3ee88c6ded28fc2418cb304a7b07691d, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1557957866}
     - target: {fileID: 8719468217850351151, guid: 3ee88c6ded28fc2418cb304a7b07691d, type: 3}
       propertyPath: popupText
       value: 
@@ -1771,6 +1754,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2777284034175237075, guid: 3ee88c6ded28fc2418cb304a7b07691d, type: 3}
   m_PrefabInstance: {fileID: 1557957864}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1557957866 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1102321613379794931, guid: 3ee88c6ded28fc2418cb304a7b07691d, type: 3}
+  m_PrefabInstance: {fileID: 1557957864}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2db452037132bc409ed1ac1887b75b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1608596459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,6 +1867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectName: GroupeHomme
+  tuto: {fileID: 719292890}
+  popup: {fileID: 1263871041}
 --- !u!61 &1608596463
 BoxCollider2D:
   m_ObjectHideFlags: 0
