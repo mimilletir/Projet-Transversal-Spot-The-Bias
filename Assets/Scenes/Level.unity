@@ -149,10 +149,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   peoplePrefab: {fileID: 8080041400347581146, guid: 3c4d19e9509c7f049b8c3740491ea3ff, type: 3}
-  maxPeople: 300
+  maxPeople: 200
   spawnInterval: 0.01
   spawnArea: {x: 32, y: 12}
-  minDistance: 0.4
+  minDistance: 0.6
   names:
   - truc
   - chose
@@ -655,12 +655,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 519420031}
+  canZoom: 1
   zoomMultiplier: 10
   minZoom: 3
   maxZoom: 10.5
   smoothTime: 0.25
+  canDrag: 1
   dragSpeed: 0.2
   worldSize: {x: 0, y: 0}
+  canFocus: 0
+  zoomFocus: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,17 +794,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heads:
-  - {fileID: 5294342545596624674, guid: 151fef294f8982e4290e57febc8ff295, type: 3}
-  - {fileID: 3884556660111867385, guid: 1198ad93bacfb9c43aabb074c8d0387c, type: 3}
-  bodies:
   - {fileID: 8499269472285282142, guid: c91693410220384448602cec9883aea1, type: 3}
-  - {fileID: 4832885691669947416, guid: 6eff550065612ae46848f61ba057a05d, type: 3}
-  hairs:
-  - {fileID: 8187621581780038537, guid: c380e45240089ec4ea4e919094aec590, type: 3}
-  - {fileID: 1789855181413307876, guid: b1da9e231f0e8c345bbd65d9260d3ab3, type: 3}
+  - {fileID: 8499269472285282142, guid: 06fb68e0d78c6644a993e1fe0a371ed0, type: 3}
+  - {fileID: 8499269472285282142, guid: cfd0e2a832ab2a54294194161851536b, type: 3}
+  - {fileID: 8499269472285282142, guid: c98ff4f00eb69254ebb2b616c30241f9, type: 3}
+  - {fileID: 8499269472285282142, guid: 7acba1cb0fb314444bb55ce9ee80acb5, type: 3}
+  - {fileID: 8499269472285282142, guid: 368774bdcb50f874f835712e04525d12, type: 3}
+  - {fileID: 8499269472285282142, guid: 9c4fc7530793c7b41a5b020d4a65d5b1, type: 3}
+  - {fileID: 8499269472285282142, guid: 7b555a0a96925cb4a80348f7915b7ce6, type: 3}
+  bodies:
+  - {fileID: 8499269472285282142, guid: 5cf57dd677c0bec4a8b1e4d929c6d1eb, type: 3}
+  - {fileID: 8499269472285282142, guid: 64247c7c72f2ae5478935514c97277d5, type: 3}
+  - {fileID: 8499269472285282142, guid: 659ee295356b01941a8f1cbf66166333, type: 3}
+  - {fileID: 8499269472285282142, guid: a7d3956e1672f1c4abc1d69a19ce3885, type: 3}
+  - {fileID: 8499269472285282142, guid: 8efc95ac47d325746b62dcd22a080b7d, type: 3}
+  - {fileID: 8499269472285282142, guid: c90e083f315caea41944a600d6a5be9c, type: 3}
+  - {fileID: 8499269472285282142, guid: 05dcb9d8f3562a04d8f226ace8326c4e, type: 3}
+  - {fileID: 8499269472285282142, guid: 440a66900f39aca4199f497a5bfea18f, type: 3}
+  - {fileID: 8499269472285282142, guid: 1f8faf03f23926e41be95560dcdd2146, type: 3}
   legs:
-  - {fileID: 1865284881190581166, guid: 6ed4114d910988b4790eea808ac39627, type: 3}
-  - {fileID: 9019018960443330573, guid: 44203afae2908b34fba3c517e7f02434, type: 3}
+  - {fileID: 8499269472285282142, guid: c38977886294c124d8f95ea8c3a7431d, type: 3}
+  - {fileID: 8499269472285282142, guid: 2ea50da14b982824aadeed15126beea6, type: 3}
+  - {fileID: 8499269472285282142, guid: a1221617d22d27348835d5607fc872e7, type: 3}
+  - {fileID: 8499269472285282142, guid: c62b67d97c11a324b87f8bad2f0ef76e, type: 3}
 --- !u!1 &1062057360
 GameObject:
   m_ObjectHideFlags: 0

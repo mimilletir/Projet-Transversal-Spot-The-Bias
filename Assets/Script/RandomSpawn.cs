@@ -41,9 +41,6 @@ public class RandomSpawn : MonoBehaviour
         GameObject newPeople = Instantiate(peoplePrefab, spawnPosition, Quaternion.identity);
         rndChaGen.GenerateRandomCharacter(newPeople.transform);
 
-        string name = GetRandomName();
-        newPeople.GetComponent<ClickableObject>().objectName = name;
-
         Color color = GetColor(name);
         newPeople.GetComponent<SpriteRenderer>().color = color;
 
@@ -65,12 +62,6 @@ public class RandomSpawn : MonoBehaviour
                 return false;
         }
         return true;
-    }
-
-    string GetRandomName()
-    {
-        int id = Random.Range(0, names.Count);
-        return names[id];
     }
 
     Color GetColor(string name)

@@ -8,9 +8,6 @@ public class RandomCharacterGenerator : MonoBehaviour
     [Header("Bodies")]
     public GameObject[] bodies;
 
-    [Header("Hairs")]
-    public GameObject[] hairs;
-
     [Header("Legs")]
     public GameObject[] legs;
 
@@ -19,7 +16,6 @@ public class RandomCharacterGenerator : MonoBehaviour
         // Ajouter chaque partie à un point d'ancrage
         InstantiateRandomPart(heads, anchor, "Head");
         InstantiateRandomPart(bodies, anchor, "Body");
-        InstantiateRandomPart(hairs, anchor, "Hair");
         InstantiateRandomPart(legs, anchor, "Legs");
     }
 
