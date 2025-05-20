@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine.Rendering;
 
 public class RandomSpawn : MonoBehaviour
 {
@@ -8,7 +10,6 @@ public class RandomSpawn : MonoBehaviour
     public float spawnInterval = 0.01f;
     public Vector2 spawnArea;
     public float minDistance = 1f;
-    public List<string> names = new List<string>();
 
     [SerializeField] private RandomCharacterGenerator rndChaGen;
 
@@ -40,9 +41,7 @@ public class RandomSpawn : MonoBehaviour
         spawnedPositions.Add(spawnPosition);
         GameObject newPeople = Instantiate(peoplePrefab, spawnPosition, Quaternion.identity);
         rndChaGen.GenerateRandomCharacter(newPeople.transform);
-
-        Color color = GetColor(name);
-        newPeople.GetComponent<SpriteRenderer>().color = color;
+        newPeople.GetComponent<SortingGroup>().sortingOrder = (int)(-newPeople.transform.position.y * 1000);
 
         _currentPeople++;
     }
@@ -62,21 +61,6 @@ public class RandomSpawn : MonoBehaviour
                 return false;
         }
         return true;
-    }
-
-    Color GetColor(string name)
-    {
-        switch (name.ToLower())
-        {
-            case "truc":
-                return Color.blue;
-            case "chose":
-                return Color.red;
-            case "machin":
-                return Color.green;
-            default:
-                return Color.white;
-        }
     }
 
     void OnDrawGizmos()

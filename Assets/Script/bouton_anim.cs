@@ -41,8 +41,6 @@ public class UiAnimation : MonoBehaviour
             float ratio = m_time / m_duration;
             m_image.color = Color.Lerp(m_startColor, m_endColor, ratio);
 
-            Debug.Log($"<color=orange> {m_time} </color>");
-
             m_time += Time.unscaledDeltaTime; // deltaTime ca marche aussi (ca dï¿½pend du contexte)
 
             // On Loop l'animation
