@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: a7886dfb603498a43bbc2edfbaed0779
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5594222148540800782
+    second: "Scene decoup\xE9_0"
+  - first:
+      213: 3175192786614074957
+    second: "Scene decoup\xE9_1"
+  - first:
+      213: 7526236833238986750
+    second: "Scene decoup\xE9_2"
+  - first:
+      213: -2287244080798718822
+    second: "Scene decoup\xE9_3"
+  - first:
+      213: 6824715093843203183
+    second: "Scene decoup\xE9_4"
+  - first:
+      213: -4357875909788164854
+    second: "Scene decoup\xE9_5"
+  - first:
+      213: 5821497614658918147
+    second: "Scene decoup\xE9_6"
+  - first:
+      213: 821729286775019839
+    second: "Scene decoup\xE9_7"
+  - first:
+      213: -1697730329627405461
+    second: "Scene decoup\xE9_8"
+  - first:
+      213: 8659805543497293897
+    second: "Scene decoup\xE9_9"
+  - first:
+      213: 1894042106070838409
+    second: "Scene decoup\xE9_10"
+  - first:
+      213: -2013739223615069783
+    second: "Scene decoup\xE9_11"
+  - first:
+      213: -7307600250847640943
+    second: "Scene decoup\xE9_12"
+  - first:
+      213: -1460180314948281493
+    second: "Scene decoup\xE9_13"
+  - first:
+      213: -2822047864213466212
+    second: "Scene decoup\xE9_14"
+  - first:
+      213: 2638193231929810656
+    second: "Scene decoup\xE9_15"
+  - first:
+      213: 901376557874426495
+    second: "Scene decoup\xE9_16"
+  - first:
+      213: 9057811212586802432
+    second: "Scene decoup\xE9_17"
+  - first:
+      213: 8607926317450033071
+    second: "Scene decoup\xE9_18"
+  - first:
+      213: -7784448104512164526
+    second: "Scene decoup\xE9_19"
+  - first:
+      213: 8784275716516751222
+    second: "Scene decoup\xE9_20"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_0"
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1263
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f9566976ba2ad40800000000000000
+      internalID: 5594222148540800782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_1"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1207
+        width: 181
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eb38b340d801c20800000000000000
+      internalID: 3175192786614074957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_2"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1320
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effabac2680927860800000000000000
+      internalID: 7526236833238986750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_3"
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1283
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94a06970a31240e0800000000000000
+      internalID: -2287244080798718822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_4"
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1274
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6455cd083246be50800000000000000
+      internalID: 6824715093843203183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1159
+        width: 145
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d18d5f2f6b583c0800000000000000
+      internalID: -4357875909788164854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_6"
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1176
+        width: 146
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3075786ac3d1ac050800000000000000
+      internalID: 5821497614658918147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_7"
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1167
+        width: 167
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3992cfbe6e576b00800000000000000
+      internalID: 821729286775019839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_8"
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 998
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63d62a92437078e0800000000000000
+      internalID: -1697730329627405461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_9"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1052
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9406d1c924fcd2870800000000000000
+      internalID: 8659805543497293897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_10"
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1002
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c2cf9a24df84a10800000000000000
+      internalID: 1894042106070838409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_11"
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1030
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1272a68d2cd04e0800000000000000
+      internalID: -2013739223615069783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_12"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 589
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192cba70a40369a90800000000000000
+      internalID: -7307600250847640943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_13"
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 589
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b5d7b6db56cbbe0800000000000000
+      internalID: -1460180314948281493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_14"
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 481
+        width: 145
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93186a5b6216d8d0800000000000000
+      internalID: -2822047864213466212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_15"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 484
+        width: 146
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee140644cebc9420800000000000000
+      internalID: 2638193231929810656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_16"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 307
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7238f42435528c00800000000000000
+      internalID: 901376557874426495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_17"
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 285
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d59c8be4fc3bd70800000000000000
+      internalID: 9057811212586802432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_18"
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 318
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa77854016f757770800000000000000
+      internalID: 8607926317450033071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_19"
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 159
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25de61651b518f390800000000000000
+      internalID: -7784448104512164526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Scene decoup\xE9_20"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677221c193408e970800000000000000
+      internalID: 8784275716516751222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8e5951504f91434aaaea3e453e29902
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Scene decoup\xE9_0": 5594222148540800782
+      "Scene decoup\xE9_1": 3175192786614074957
+      "Scene decoup\xE9_10": 1894042106070838409
+      "Scene decoup\xE9_11": -2013739223615069783
+      "Scene decoup\xE9_12": -7307600250847640943
+      "Scene decoup\xE9_13": -1460180314948281493
+      "Scene decoup\xE9_14": -2822047864213466212
+      "Scene decoup\xE9_15": 2638193231929810656
+      "Scene decoup\xE9_16": 901376557874426495
+      "Scene decoup\xE9_17": 9057811212586802432
+      "Scene decoup\xE9_18": 8607926317450033071
+      "Scene decoup\xE9_19": -7784448104512164526
+      "Scene decoup\xE9_2": 7526236833238986750
+      "Scene decoup\xE9_20": 8784275716516751222
+      "Scene decoup\xE9_3": -2287244080798718822
+      "Scene decoup\xE9_4": 6824715093843203183
+      "Scene decoup\xE9_5": -4357875909788164854
+      "Scene decoup\xE9_6": 5821497614658918147
+      "Scene decoup\xE9_7": 821729286775019839
+      "Scene decoup\xE9_8": -1697730329627405461
+      "Scene decoup\xE9_9": 8659805543497293897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
