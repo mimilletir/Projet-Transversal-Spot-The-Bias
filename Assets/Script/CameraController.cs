@@ -4,15 +4,15 @@ using UnityEngine.UIElements;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Camera _camera;
+    [SerializeField] public Camera _camera;
     
-    private float zoom;
+    [HideInInspector] public float zoom;
     [Header("Zoom")]
     public bool canZoom = true;
     public float zoomMultiplier = 10f;
     public float minZoom = 2f;
     public float maxZoom = 5f;
-    private float velocityZoom;
+    [HideInInspector] public float velocityZoom;
     public float smoothTime = 0.25f;
 
     [Header("Drag")]
@@ -101,7 +101,6 @@ public class CameraController : MonoBehaviour
     {
         canFocus = enabled;
         unfocus = true;
-        zoomFocus = 1f;
         targetPos = new Vector3(position.position.x, position.position.y, -10);
     }
 

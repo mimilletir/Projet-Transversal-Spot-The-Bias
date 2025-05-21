@@ -7,7 +7,9 @@ using System.Collections.Generic;
 public class PopupData
 {
     public string objectName;
+    [TextArea(2, 5)] public string title;
     [TextArea(2, 5)] public string popupText;
+    [TextArea(2, 5)] public string popupTextsolu;
 }
 
 
@@ -18,6 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("Popup UI Elements")]
     public GameObject popup;
     public TextMeshProUGUI popupText;
+    public TextMeshProUGUI popupTextSolution;
     public Button closeButton;
 
     [Header("Popups configurables")]
@@ -27,7 +30,13 @@ public class GameManager : MonoBehaviour
     public GameObject tuto;
     public Timer timer;
 
-    private Dictionary<string, string> popupDictionary;
+    [Header("Final")]
+    public GameObject final;
+
+    [Header("TextMemory")]
+    public TextMemory textMemory;
+
+    private Dictionary<string, PopupData> popupDictionary;
 
     void Awake()
     {
@@ -46,11 +55,11 @@ public class GameManager : MonoBehaviour
         if (popup != null)
             popup.SetActive(false);
 
-        popupDictionary = new Dictionary<string, string>();
+        popupDictionary = new Dictionary<string, PopupData>();
         foreach (var data in popups)
         {
             if (!popupDictionary.ContainsKey(data.objectName))
-                popupDictionary.Add(data.objectName, data.popupText);
+                popupDictionary.Add(data.objectName, data);
         }
 
         if (tuto != null)
@@ -58,13 +67,19 @@ public class GameManager : MonoBehaviour
             tuto.SetActive(true);
             timer.timerIsRunning = false;
         }
+
+        if (final != null)
+            final.SetActive(false);
+
     }
 
     public void HandleInteraction(string objectName)
     {
         if (popupDictionary.ContainsKey(objectName))
         {
-            ShowPopup(popupDictionary[objectName]);
+            PopupData data = popupDictionary[objectName];
+            ShowPopup(data.popupText, data.popupTextsolu);
+            textMemory.AddText(popupDictionary[objectName].title);
         }
         else
         {
@@ -72,11 +87,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ShowPopup(string message)
+    public void ShowPopup(string message, string solution)
     {
         if (popup != null && popupText != null)
         {
             popupText.text = message;
+            if (popupTextSolution != null)
+            {
+                popupTextSolution.text = solution;
+            }
             popup.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -91,4 +110,3 @@ public class GameManager : MonoBehaviour
         }
     }
 }
-

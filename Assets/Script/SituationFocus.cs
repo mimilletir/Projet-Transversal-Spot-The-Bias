@@ -32,7 +32,7 @@ public class SituationFocus : MonoBehaviour
     {
         cameraController.StartFocus(true, situations[number].transform);
         textSituation.text = gameManager.popups[number].popupText;
-        textSolution.text = gameManager.popups[number].popupText;
+        textSolution.text = gameManager.popups[number].popupTextsolu;
         number += 1;
         if (number >= gameManager.popups.Count)
             number = 0;

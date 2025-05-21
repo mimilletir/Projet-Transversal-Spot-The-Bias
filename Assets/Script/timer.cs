@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Timer : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timer;
     public Button skipbutton;
     public GameObject finalscreen;
+    [SerializeField] private GameObject canvasPopup;
+    [SerializeField] private GameObject canvasFinal;
+    [SerializeField] private CameraController cameraController;
 
     private void Start()
     {
@@ -45,7 +49,7 @@ public class Timer : MonoBehaviour
                 timerIsRunning = false;
                 UpdateTimerDisplay(timeRemaining);
                 Debug.Log("Time has run out!");
-                Stopbutton(); 
+                Stopbutton();
             }
         }
     }
@@ -66,8 +70,7 @@ public class Timer : MonoBehaviour
         Debug.Log("Time has run out!");
         ShowPopup();
 
-        
-        StartCoroutine(WaitBeforeSceneChange(3f)); 
+        StartCoroutine(WaitBeforeSceneChange(3f));
     }
 
     public void ShowPopup()
@@ -75,14 +78,55 @@ public class Timer : MonoBehaviour
         if (finalscreen != null)
         {
             finalscreen.SetActive(true);
-            Time.timeScale = 0f; 
         }
     }
 
     IEnumerator WaitBeforeSceneChange(float delay)
     {
+        cameraController.canDrag = false;
+        cameraController.canZoom = false;
+        cameraController._camera.orthographicSize = cameraController.maxZoom;
         yield return new WaitForSecondsRealtime(delay);
+
         Time.timeScale = 1f;
-        SceneManager.LoadScene("EndScene");
+        canvasPopup.SetActive(false);
+        finalscreen.SetActive(false);
+        canvasFinal.SetActive(true);
+
+        StartCoroutine(FadeOutPeople(2f));
+    }
+
+    IEnumerator FadeOutPeople(float duration)
+    {
+        GameObject[] people = GameObject.FindGameObjectsWithTag("People");
+        float elapsed = 0f;
+
+        List<SpriteRenderer[]> allRenderers = new List<SpriteRenderer[]>();
+        foreach (GameObject person in people)
+        {
+            SpriteRenderer[] renderers = person.GetComponentsInChildren<SpriteRenderer>();
+            allRenderers.Add(renderers);
+        }
+
+        while (elapsed < duration)
+        {
+            float alpha = Mathf.Lerp(1f, 0f, elapsed / duration);
+            foreach (SpriteRenderer[] renderers in allRenderers)
+            {
+                foreach (SpriteRenderer sr in renderers)
+                {
+                    if (sr != null)
+                    {
+                        Color color = sr.color;
+                        color.a = alpha;
+                        sr.color = color;
+                    }
+                }  
+            }
+
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+            
+        }
     }
 }
