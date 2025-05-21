@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Homme assis_0: 5103372642893138543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

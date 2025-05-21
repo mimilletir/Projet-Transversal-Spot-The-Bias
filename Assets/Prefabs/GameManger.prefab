@@ -86,27 +86,29 @@ MonoBehaviour:
   popups:
   - objectName: HommeAssis
     title: "L'homme ignor\xE9"
-    popupText: "Un homme triste dans son coin se fait ignorer car pas assez viril.\r"
+    popupText: "Un homme triste dans son coin se fait ignorer car il n'est pas assez
+      viril.\r"
     popupTextsolu: Aller le voir, lui demander si tout va bien et lui apporter un
-      soutien psychologique.
+      soutien psychologique si besoin.
   - objectName: DanceImposee
-    title: "La dance impos\xE9e"
-    popupText: "Un homme impose une danse \xE0 une femme mal \xE0 l\u2019aise."
+    title: "La danse impos\xE9e"
+    popupText: "Un homme impose une danse \xE0 une femme qui est mal \xE0 l\u2019aise."
     popupTextsolu: "S\u2019interposer entre les deux, demander \xE0 la femme si elle
-      a besoin d\u2019aide et si la situation s\u2019aggrave appeler la s\xE9curit\xE9.\r"
+      a besoin d\u2019aide et, si la situation s\u2019aggrave, appeler la s\xE9curit\xE9.\r"
   - objectName: ObjetMignon
     title: L'object mignon
     popupText: "Un homme poss\xE8de un objet mignon et se fait ridiculiser \xE0 cause
       de \xE7a."
-    popupTextsolu: Respecter ses choix, le complimenter
+    popupTextsolu: Respecter ses choix et le complimenter
   - objectName: GroupeHomme
     title: Le groupe d'homme
     popupText: "Une femme re\xE7oit des regards insistants d\u2019un groupe d\u2019hommes.
       Elle semble mal \xE0 l\u2019aise."
-    popupTextsolu: "Dans cette situation on peut se mettre devant le champ de vision
-      du groupe et demander \xE0 la dame si elle a besoin d\u2019aide, si le probl\xE8me
-      persiste il faut en informer la s\xE9curit\xE9"
+    popupTextsolu: "On peut se placer dans le champ de vision du groupe et demander
+      \xE0 la dame si elle a besoin d\u2019aide. Si le probl\xE8me persiste, il faut
+      en informer la s\xE9curit\xE9."
   tuto: {fileID: 0}
   timer: {fileID: 1102321613379794931}
   final: {fileID: 0}
-  textMemory: {fileID: 0}
+  ticketSituation: {fileID: 3962516655774400365, guid: 795a1939e0868154c8e6800071523a39, type: 3}
+  ticketContainer: {fileID: 0}

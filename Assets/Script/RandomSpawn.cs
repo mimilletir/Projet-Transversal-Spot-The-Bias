@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine.Rendering;
 
+
+[System.Serializable]
+public class NoSpawn
+{
+    public Vector2 pos;
+    public Vector2 size;
+}
+
 public class RandomSpawn : MonoBehaviour
 {
     public GameObject peoplePrefab;
@@ -12,6 +20,7 @@ public class RandomSpawn : MonoBehaviour
     public float minDistance = 1f;
 
     [SerializeField] private RandomCharacterGenerator rndChaGen;
+    [SerializeField] private List<NoSpawn> noSpawns = new List<NoSpawn>();
 
     private int _currentPeople = 0;
     private List<Vector2> spawnedPositions = new List<Vector2>();
@@ -60,13 +69,30 @@ public class RandomSpawn : MonoBehaviour
             if (Vector2.Distance(pos, newPos) < minDistance)
                 return false;
         }
+
+        foreach (NoSpawn noSpawn in noSpawns)
+        {
+            Vector2 halfSize = noSpawn.size / 2;
+            if (newPos.x > noSpawn.pos.x - halfSize.x && newPos.x < noSpawn.pos.x + halfSize.x &&
+                newPos.y > noSpawn.pos.y - halfSize.y && newPos.y < noSpawn.pos.y + halfSize.y)
+            {
+                return false;
+            }
+        }
+
         return true;
     }
 
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.green;
         Gizmos.DrawWireCube(transform.position, spawnArea);
+
+        foreach (NoSpawn noSpawn in noSpawns)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireCube(noSpawn.pos, noSpawn.size);
+        }
     }
 }
 

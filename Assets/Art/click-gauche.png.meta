@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 212f02838677b854ba2c55e13946898f
+guid: e08bcda78cdfbab488855ec6c3eb54b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 682888236191481801
-    second: "Dance Impos\xE9_0"
+      213: -242334876878574100
+    second: click-gauche_0
+  - first:
+      213: -3563657806826604393
+    second: click-gauche_1
+  - first:
+      213: 1003323001873437619
+    second: click-gauche_2
+  - first:
+      213: -3002695007843945468
+    second: click-gauche_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Dance Impos\xE9_0"
+      name: click-gauche_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 203
-        height: 297
+        x: 89
+        y: 451
+        width: 45
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cf7c739b3b1a7900800000000000000
-      internalID: 682888236191481801
+      spriteID: cede6f2a6bd03acf0800000000000000
+      internalID: -242334876878574100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: click-gauche_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 327
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7987d031b185b8ec0800000000000000
+      internalID: -3563657806826604393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: click-gauche_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 459
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b315a154f48ced00800000000000000
+      internalID: 1003323001873437619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: click-gauche_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 417
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4047f90acc84456d0800000000000000
+      internalID: -3002695007843945468
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      click-gauche_0: -242334876878574100
+      click-gauche_1: -3563657806826604393
+      click-gauche_2: 1003323001873437619
+      click-gauche_3: -3002695007843945468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

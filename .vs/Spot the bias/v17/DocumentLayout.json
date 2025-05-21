@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|c:\\users\\milan\\documents\\github\\projet-transversal-spot-the-bias\\spot the bias\\assets\\script\\returnmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\returnmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|c:\\users\\milan\\documents\\github\\projet-transversal-spot-the-bias\\spot the bias\\assets\\script\\randomspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\randomspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\clickableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\clickableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\assets\\script\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87669ED4-69BE-26F9-9C03-DF6A2561ACE4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +43,81 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReturnMainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\ReturnMainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ReturnMainMenu.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\ReturnMainMenu.cs",
+              "RelativeToolTip": "Assets\\Script\\ReturnMainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:36:30.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RandomSpawn.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\RandomSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RandomSpawn.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\RandomSpawn.cs",
+              "RelativeToolTip": "Assets\\Script\\RandomSpawn.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv08AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:25:47.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:10:59.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClickableObject.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\ClickableObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ClickableObject.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\ClickableObject.cs",
+              "RelativeToolTip": "Assets\\Script\\ClickableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:52:42.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowGYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:38:00.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "timer.cs",
+              "DocumentMoniker": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\timer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\timer.cs",
+              "ToolTip": "C:\\Users\\milan\\Documents\\GitHub\\Projet-Transversal-Spot-The-Bias\\Spot the bias\\Assets\\Script\\timer.cs",
+              "RelativeToolTip": "Assets\\Script\\timer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T07:05:04.838Z"
             }
           ]
         }

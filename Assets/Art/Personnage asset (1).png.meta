@@ -156,6 +156,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -634,7 +647,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Personnage asset (1)_0: -1901451191118304833
+      Personnage asset (1)_1: 1576862590475013330
+      Personnage asset (1)_10: -7149070979022209941
+      Personnage asset (1)_11: 5485817376955932230
+      Personnage asset (1)_12: 1258402537377832614
+      Personnage asset (1)_13: -8286006347392621149
+      Personnage asset (1)_14: 1277995059751416031
+      Personnage asset (1)_15: 2860034222183324004
+      Personnage asset (1)_16: 8724218888447304766
+      Personnage asset (1)_17: -1239674844379213072
+      Personnage asset (1)_18: 8755661316984897594
+      Personnage asset (1)_19: -5536635879174685726
+      Personnage asset (1)_2: -1781374269561526540
+      Personnage asset (1)_20: 3822518814083038988
+      Personnage asset (1)_3: -8528976620106660760
+      Personnage asset (1)_4: -6952414677357886237
+      Personnage asset (1)_5: 5665969200209983083
+      Personnage asset (1)_6: -7598906072442063830
+      Personnage asset (1)_7: 1098954305740411901
+      Personnage asset (1)_8: 2521046561450427452
+      Personnage asset (1)_9: -6790387813718118290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

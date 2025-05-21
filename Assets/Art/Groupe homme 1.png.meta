@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 212f02838677b854ba2c55e13946898f
+guid: 0519e252f3bce69469a1e2fef2bf59dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 682888236191481801
-    second: "Dance Impos\xE9_0"
+      213: -9039471661499805202
+    second: Groupe homme 1_0
+  - first:
+      213: 5245861065816655929
+    second: Groupe homme 1_1
+  - first:
+      213: -2488944730619450416
+    second: Groupe homme 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +119,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Dance Impos\xE9_0"
+      name: Groupe homme 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 203
-        height: 297
+        y: 267
+        width: 365
+        height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cf7c739b3b1a7900800000000000000
-      internalID: 682888236191481801
+      spriteID: ee11813ca685d8280800000000000000
+      internalID: -9039471661499805202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groupe homme 1_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 145
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbe8d954fd757dd0800000000000000
+      internalID: -2488944730619450416
       vertices: []
       indices: 
       edges: []
@@ -138,7 +166,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73ec12b30515c03489e9db2dc2efffbc
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +175,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Groupe homme 1_0: -9039471661499805202
+      Groupe homme 1_2: -2488944730619450416
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -65,12 +65,12 @@ public class CameraController : MonoBehaviour
     // Pour déplacer la caméra lorsqu'on est zoomé
     private void Drag()
     {
-        if (Input.GetMouseButtonDown(1)) // Clic droit
+        if (Input.GetMouseButtonDown(0)) // Clic gauche
         {
             dragOrigin = _camera.ScreenToWorldPoint(Input.mousePosition);
         }
 
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(0))
         {
             Vector3 difference = dragOrigin - _camera.ScreenToWorldPoint(Input.mousePosition);
             transform.position += difference;

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 212f02838677b854ba2c55e13946898f
+guid: 6e7043c6ecc0a0348a4331d17c46256b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 682888236191481801
-    second: "Dance Impos\xE9_0"
+      213: 3222883542809275003
+    second: clic-droit_0
+  - first:
+      213: 2294512725552468368
+    second: clic-droit_1
+  - first:
+      213: 4783709774976051269
+    second: clic-droit_2
+  - first:
+      213: 8449577860493095975
+    second: clic-droit_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Dance Impos\xE9_0"
+      name: clic-droit_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 71
         y: 0
-        width: 203
-        height: 297
+        width: 327
+        height: 479
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cf7c739b3b1a7900800000000000000
-      internalID: 682888236191481801
+      spriteID: b7a6991b18bf9bc20800000000000000
+      internalID: 3222883542809275003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clic-droit_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 459
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0911b23ca2fb7df10800000000000000
+      internalID: 2294512725552468368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clic-droit_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 451
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548e206f1b6236240800000000000000
+      internalID: 4783709774976051269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clic-droit_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 417
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72432bcdb4ee24570800000000000000
+      internalID: 8449577860493095975
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clic-droit_0: 3222883542809275003
+      clic-droit_1: 2294512725552468368
+      clic-droit_2: 4783709774976051269
+      clic-droit_3: 8449577860493095975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

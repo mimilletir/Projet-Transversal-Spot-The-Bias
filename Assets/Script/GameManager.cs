@@ -33,8 +33,9 @@ public class GameManager : MonoBehaviour
     [Header("Final")]
     public GameObject final;
 
-    [Header("TextMemory")]
-    public TextMemory textMemory;
+    [Header("TicketText")]
+    public GameObject ticketSituation;
+    public Transform ticketContainer;
 
     private Dictionary<string, PopupData> popupDictionary;
 
@@ -79,7 +80,8 @@ public class GameManager : MonoBehaviour
         {
             PopupData data = popupDictionary[objectName];
             ShowPopup(data.popupText, data.popupTextsolu);
-            textMemory.AddText(popupDictionary[objectName].title);
+            GameObject ticket = Instantiate(ticketSituation, ticketContainer);
+            ticket.GetComponentInChildren<TextMeshProUGUI>().text = data.title;
         }
         else
         {

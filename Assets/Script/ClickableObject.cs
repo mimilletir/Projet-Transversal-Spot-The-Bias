@@ -7,11 +7,31 @@ public class ClickableObject : MonoBehaviour
     public GameObject popup;
     public GameObject final;
 
-    void OnMouseDown()
+    private bool clickable = false;
+    private bool notBeenClick = true;
+
+    void Update()
     {
-        if (tuto.activeSelf || popup.activeSelf || final.activeSelf)
-            return;
-        Debug.Log("Tu as cliqué sur : " + objectName);
-        GameManager.Instance.HandleInteraction(objectName);
+        if (Input.GetMouseButtonDown(1)) // Clic droit
+        {
+            if (tuto.activeSelf || popup.activeSelf || final.activeSelf)
+                    return;
+
+            if (clickable && notBeenClick)
+            {
+                GameManager.Instance.HandleInteraction(objectName);
+                notBeenClick = false;
+            }
+        }
+    }
+
+    private void OnMouseEnter()
+    {
+        clickable = true;
+    }
+
+    private void OnMouseExit()
+    {
+        clickable = false;
     }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 212f02838677b854ba2c55e13946898f
+guid: a9463f3a7735719468f746b2a37bb1c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 682888236191481801
-    second: "Dance Impos\xE9_0"
+      213: -4836179797826069392
+    second: HAHA_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Dance Impos\xE9_0"
+      name: HAHA_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 203
-        height: 297
+        width: 121
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cf7c739b3b1a7900800000000000000
-      internalID: 682888236191481801
+      spriteID: 07c18a8d81072ecb0800000000000000
+      internalID: -4836179797826069392
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HAHA_0: -4836179797826069392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
